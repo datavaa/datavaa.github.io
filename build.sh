@@ -8,5 +8,5 @@ fi
 
 git add .
 git commit -m "$commit_log"
-git push origin docs
+git push origin master
 echo "部署成功"
