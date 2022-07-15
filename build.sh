@@ -9,4 +9,4 @@ fi
 git add .
 git commit -m "$commit_log"
 git push origin master -f
-echo "部署成功"
+echo "部署成功!"
