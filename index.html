@@ -35,23 +35,7 @@
   </head>
   <body>
     <div id="app">正在加载，请耐心等待</div>
-    <script src="./plugin/talk.js"></script>
 
-    <script>
-      window.$docsify = {
-        onlyCover: true,
-        coverpage: true,
-        loadNavbar: true,
-        loadSidebar: true,
-        plugins: [gittalk],
-        search: 'auto',
-        sidebarDisplayLevel: 1, // set sidebar display level
-        toc: {
-          tocMaxLevel: 5,
-          target: 'h2, h3, h4, h5, h6',
-        },
-      };
-    </script>
     <!--依赖JS-->
     <script src="//unpkg.zhimg.com/vue@2.6.12/dist/vue.min.js"></script>
     <script src="//unpkg.zhimg.com/element-ui@2.11.1/lib/index.js"></script>
@@ -69,5 +53,23 @@
     <script src="https://g.alicdn.com/de/prismplayer/2.9.19/aliplayer-min.js"></script>
     <script src="./_media/js/aliplayercomponents-1.0.8.min.js"></script>
     <script src="./_media/js/gitalk.min.js"></script>
+    <script src="./plugin/talk.js"></script>
+    <script src="./plugin/version.js"></script>
+
+    <script>
+      window.$docsify = {
+        onlyCover: true,
+        coverpage: true,
+        loadNavbar: true,
+        loadSidebar: true,
+        plugins: [gittalk, version],
+        search: 'auto',
+        sidebarDisplayLevel: 1, // set sidebar display level
+        toc: {
+          tocMaxLevel: 5,
+          target: 'h2, h3, h4, h5, h6',
+        },
+      };
+    </script>
   </body>
 </html>
