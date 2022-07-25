@@ -85,3 +85,4 @@ yarn-error.log*
 # Lock File
 package-lock.json
 yarn.lock
+CNAME
