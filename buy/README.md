@@ -52,7 +52,7 @@
         },
         computed: {
             calcMoney() {
-                this.form.money = "8000";
+                this.form.money = "9999";
                 this.form.time = "永久"
                 this.form.version = "datav"
                 this.form.money = Math.ceil(this.form.money * this.form.promo)
@@ -69,7 +69,7 @@
                     return false
                 }
                 axios({
-                    url: "https://pay.pig4cloud.com/enterprise/promo?code=" + this.form.recommend,
+                    url: "https://pay.pigx.vip/enterprise/promo?code=" + this.form.recommend,
                     method: "get",
                 }).then((response) => {
                     // 有效
