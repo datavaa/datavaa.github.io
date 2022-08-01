@@ -44,6 +44,10 @@
                 },
                 offers: [
                     {
+                        value: "10",
+                        label: "一年期 license版本",
+                    },
+                    {
                         value: "1",
                         label: "100% 源码版",
                     }
@@ -52,7 +56,7 @@
         },
         computed: {
             calcMoney() {
-                this.form.money = "9999";
+                this.form.offer === "10" ? this.form.money = "999" : this.form.money = "9999"
                 this.form.time = "永久"
                 this.form.version = "datav"
                 this.form.money = Math.ceil(this.form.money * this.form.promo)
