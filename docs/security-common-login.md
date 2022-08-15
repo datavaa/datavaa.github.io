@@ -1,5 +1,3 @@
-<iframe src="//player.bilibili.com/player.html?aid=982266201&bvid=BV1dt4y1n7zh&cid=742278867&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="600"> </iframe>
-
 ![](https://minio.pigx.vip/oss/1657001481.jpg)
 
 ## ① 添加 maven 依赖
@@ -59,7 +57,3 @@ public String info(String identify) {
     return null;
 }
 ```
-
-## ④ 附录: PostMan 接口调试
-
-[>> DataV PostMan <<](https://documenter.getpostman.com/view/4617525/UzJFvdon)
