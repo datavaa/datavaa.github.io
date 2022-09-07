@@ -31,3 +31,16 @@ spring.datasource.password=root
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 ```
+
+## 特别说明
+
+!> ORACLE 存储大文本时候，和其他类型关系型数据库方案不一样需要添加以下兼容依赖
+
+```xml
+        <!--   兼容oracle 的插件，必须放在 datav-starter 之前     -->
+<dependency>
+    <groupId>com.pig4cloud.plugin</groupId>
+    <artifactId>datav-database-oracle-plugin</artifactId>
+    <version>${lastVersion}</version>
+</dependency>
+```
