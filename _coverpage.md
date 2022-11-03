@@ -24,7 +24,7 @@
 
 <div class='beian' id="kefu">
 <a href='http://beian.miit.gov.cn'>
-<p>当前版本: 1.3.1  || 更新时间: 2022-09-21</p>
+<p>当前版本: 1.3.2  || 更新时间: 2022-11-03</p>
 </a>
 </div>
 
