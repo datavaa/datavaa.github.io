@@ -52,7 +52,7 @@
         },
         computed: {
             calcMoney() {
-                this.form.offer === "10" ? this.form.money = "999" : this.form.money = "12000"
+                this.form.offer === "10" ? this.form.money = "999" : this.form.money = "9999"
                 this.form.time = "永久"
                 this.form.version = "datav"
                 this.form.money = Math.ceil(this.form.money * this.form.promo)
