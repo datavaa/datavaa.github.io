@@ -22,4 +22,10 @@
 <p>联系我们</p>
 </div>
 
+<div class='beian' id="kefu">
+<a href='http://beian.miit.gov.cn'>
+<p>当前版本: 1.4.0  || 更新时间: 2023-1-16</p>
+</a>
+</div>
+
 ![color](#f0f0f0)
